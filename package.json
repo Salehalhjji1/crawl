@@ -1,0 +1,18 @@
+{
+  "name": "crawl",
+  "version": "1.0.0",
+  "description": "Crawl data from the public site (https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.4",
+    "request": "^2.88.2"
+  }
+}
